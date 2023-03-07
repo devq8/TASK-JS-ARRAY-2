@@ -26,5 +26,5 @@ fruits.forEach(x => console.log(x))
 let numbers = [1,2,3,4]
 
 // 10 Use the 'map' method to create a new array called 'squares' that contains the squares of each number in the 'numbers' array.
-numbers.map(x => x*x)
+numbers = numbers.map(x => x*x)
 console.log(numbers)
